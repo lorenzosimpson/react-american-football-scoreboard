@@ -20,6 +20,10 @@
   place-items: center;
   /* height: 20rem; */
 }
+.bottomRow button {
+  background-color: #0b5402;
+}
+
 
 .home,
 .away {
