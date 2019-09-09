@@ -47,9 +47,6 @@ button:hover,
 button:focus {
   background: #a2272d;
 }
-.bottomRow button {
-  background-color: #0b5402;
-}
 
 button:focus {
   outline: 1px solid #fff;
