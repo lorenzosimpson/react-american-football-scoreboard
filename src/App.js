@@ -36,6 +36,12 @@ const [tigersScore, setTigersScore] = useState(0);
         <div className="awayButtons">
           <button className="awayButtons__touchdown" onClick={() => setTigersScore(tigersScore + 7)}>Away Touchdown</button>
           <button className="awayButtons__fieldGoal" onClick={() => setTigersScore(tigersScore + 3)}>Away Field Goal</button>
+          {/* create reset button to reset all scores to 0:  */}
+          <button className="reset" onClick={() => {
+            setLionsScore(0);
+            setTigersScore(0);
+            }
+            }>Reset</button>        
         </div>
       </section>
     </div>
